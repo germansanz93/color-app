@@ -1,0 +1,51 @@
+.NavBar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 6vh;
+}
+
+.logo{
+  margin-right: 15px;
+  padding: 0 13px;
+  font-size: 22px;
+  background-color: #ECEFF1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'RobotoRegular';
+}
+
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+
+.slider{
+  width: 340px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.rc-slider-track{
+  background-color: transparent !important;
+}
+
+.rc-slider-rail{
+  height: 8px !important;
+}
+
+.NavBar .rc-slider-handle,
+.NavBar .rc-slider-handle:active,
+.NavBar .rc-slider-handle:hover,
+.NavBar .rc-slider-handle:focus{
+  background-color: green;
+  outline: none;
+  border: 2px solid green;
+  box-shadow: none;
+  width: 13px;
+  height: 13px;
+  margin-left: -2px;
+  margin-top: -3px;
+}
+
